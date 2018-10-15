@@ -1,0 +1,343 @@
+<?php get_header(); ?>
+  <!-- Main Photo -->
+
+   <section>
+       <div id="parallax-panel">
+		<div id="parallax-image" data-parallax data-speed="0.50" data-direction="up" style="background-image:url('/wp-content/themes/mysite/images/wallpaper.jpg');"></div>
+	</div>
+   </section>
+
+
+  <main>
+    <div class="container position bg-primary">
+      <div class="row">
+        <div class="col-lg-9 col-md-9 col-sm-9 col-12 px-3 pt-3">
+          <div class="row">
+           
+            <!-- <?php if (have_posts()): 
+                                    
+                while ((have_posts())) {                     
+                get_template_part('template-parts/content', 'single');
+              }
+            
+            
+            endif; ?> -->
+
+
+
+
+
+
+
+
+
+<div class="col-lg-9 col-md-9 col-sm-9 col-12 px-2 pt-3">
+  <div class="video-block">
+     <div class="video-block-name">
+         <p>Name of This Movie</p>
+     </div>
+     <!-- Iframe Just Link Code -->
+    <!--  <iframe src="https://www.youtube.com/embed/yCOPJi0Urq4" scrolling="no" frameborder="0" width="100%" height="430" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> -->
+    <iframe width="100%" height="430" src="<?php $a = get_post_custom_values('Video URI'); echo "$a[0]"?>" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+     
+     <div class="server-tabs">
+         <nav class="mb-2">
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+             <p class="server-text">Server</p>
+              <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#streamango" role="tab" aria-controls="home" aria-selected="true">Streamango</a>
+              <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#rapidvideo" role="tab" aria-controls="nav-profile" aria-selected="false">RapidVideo</a>
+              <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#mycloud" role="tab" aria-controls="nav-contact" aria-selected="false">MyCloud</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active mx-2 flex-wrap pb-2" id="streamango" role="tabpanel" aria-labelledby="nav-home-tab">
+                
+            </div> 
+            <div class="tab-pane fade mx-2 flex-wrap pb-2" id="rapidvideo" role="tabpanel" aria-labelledby="rapidvideo">
+               
+            </div>
+            <div class="tab-pane fade mx-2 flex-wrap pb-2" id="mycloud" role="tabpanel" aria-labelledby="nav-contact-tab">
+               
+            </div>
+          </div>  
+     </div>
+  </div>
+    
+
+   <!--  /*echo get_the_tag_list(
+       '<ul class="my-tags-list"><li>',
+       '</li><li>',
+       '</li></ul>'        
+   );*/ -->
+
+
+  <!-- Disqus -->
+</div>
+ <!-- <?php get_sidebar(); ?> -->
+ <div class="col-lg-3 col-md-3 col-sm-3 col-12 px-2 pt-3">
+                   <div class="video-block">
+                      <div class="video-block-name">
+                           <p>Name of This Movie</p>
+                       </div>
+                       <img src="images/685154.png" class="mx-auto d-block img-fluid" alt="">
+                       
+                       <div class="video-block-name">
+                           <table class="table">
+                              <tbody>
+                                <tr>
+                                  <th class="ubuntu"><span th-all>Genre:</span></th>
+                                  <td>
+                                      <div class="sub_title d-flex flex-wrap ubuntu">
+                                        <a href="#"><i class="fas fa-tags"></i> Love</a>
+                                        <a href="#"><i class="fas fa-tags"></i> Comedy</a>
+                                      </div>
+                                  </td>    
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Type:</th>
+                                  <td class="ubuntu">Tv Series</td>
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Status:</th>
+                                  <td class="ubuntu">Completed</td>
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Episodes:</th>
+                                  <td class="ubuntu">4</td>
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Year:</th>
+                                  <td class="ubuntu">2018</td>
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Creator:</th>
+                                  <td class="ubuntu">Disney</td>
+                                </tr>
+                                
+                                <tr>
+                                  <th class="ubuntu">Views:</th>
+                                  <td class="ubuntu"><i class="far fa-eye"></i> 6,812</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            
+                               <div class="b-description_readmore js-description_readmore mt-3 ubuntu">
+                                    From the largest elephant to the smallest shrew, the city of Zootopia is a mammal metropolis where various animals live and thrive. When Judy Hopps (Ginnifer Goodwin) becomes the first rabbit to join the police force, she quickly learns how tough it is to enforce the law. Determined to prove herself, Judy jumps at the opportunity to solve a mysterious case. Unfortunately, that means working with Nick Wilde (Jason Bateman), a wily fox who makes her job even harder. 
+                                </div>
+                       </div>
+                   </div>
+                   
+                   <div class="ad my-3">
+                      <a href="#">
+                          <img src="images/Let-Us-Place-Your-Ad.jpg" class="mx-auto d-block img-fluid rounded" alt="">
+                      </a>
+                   </div>
+                   
+               </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+              <!-- Card Start -->
+            
+              <!-- Card End -->
+              
+              <!-- Card Start -->
+           <!--  <div class="col-xl-4 col-lg-6 col-md-6 col-sm-6 col-6 pb-3">
+               <div class="column">
+                 Post
+                 <div class="post-module">
+                   Thumbnail
+                   <div class="thumbnail">
+                    <div class="views">
+                       <p><i class="far fa-eye"></i> 6,812</p>
+                     </div>
+                     <div class="date date-movie">
+                       <p>Movie</p>
+                     </div>
+                     <a href="index-movie-content.html">
+                       <img src="/wp-content/themes/mysite/images/685154.png"/>
+                     </a>
+                   </div>
+                   Post Content
+                   <div class="post-content">
+                     <h1 class="title">Name</h1>
+                     <div class="post-meta">
+                       <a href="index-content.html" class="btn w-100">Watch</a>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div> -->
+              <!-- Card End -->
+
+              
+
+
+
+               <!-- Pagination -->
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <?php project_pagination(); ?>
+                    
+                </div>
+
+                <!-- Pagination End -->
+                
+         
+
+
+            </div>
+        <!-- Card Col -->
+
+
+        </div>
+        <!-- Sidebar here!!!-->
+        <!-- <?php get_sidebar(); ?> -->
+        <!-- Main Row -->
+    
+      </div>
+      <!-- Main Container -->
+
+      <!-- HR -->
+      <div class="row">
+         <hr class="footer-hr ">
+      </div>
+
+    </div>
+
+  </main>
+<?php get_footer(); ?>
+
+
+
+<script>
+  /* <![CDATA[ */
+    jQuery.noConflict();
+    jQuery('[data-parallax]').jQueryParallax();/* ]]> */
+  </script>
+
+    <script>
+      /* <![CDATA[ */
+      jQueryfunction() {
+      jQuery('audio').audioPlayer();
+      });/* ]]> */
+    </script>
+
+    <!-- PopUp Notification -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+          var delay_popup = 10000;
+          var msg_pop = document.getElementById('msg_pop'); setTimeout("document.getElementById('msg_pop').style.display='block';document.getElementById('msg_pop').className += 'fadeIn';", delay_popup);/* ]]> */
+    </script>
+    
+    <!-- Tabs -->
+    
+    <script type="text/javascript">
+      /* <![CDATA[ */
+    jQuery(document).ready(function() {
+      'use strict';
+      jQuery(window).on('ariaTabs.initialised', function(event, element) {
+        console.log(element + 'init');
+      });
+      jQuery('.tab-group').ariaTabs({
+        contentRole: ['document', 'application', 'document'],
+      });
+      jQuery(window).on('ariaTabs.select', function(event, element, index) {
+        console.log(index);
+      });
+      jQuery(window).on('ariaTabs.deselect', function(event, element, index) {
+        console.log(index);
+      });
+    });/* ]]> */
+  </script>
+  
+  <!-- Description -->
+  
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    jQuery(function() {
+      jQuery('.js-description_readmore').moreLines({
+        linecount: 3, 
+        baseclass: 'b-description',
+        basejsclass: 'js-description',
+        classspecific: '_readmore',    
+        buttontxtmore: "Read More",               
+        buttontxtless: "Less",
+        animationspeed: 250 
+      });
+    });/* ]]> */
+  </script>
+  <!-- More Wallpaper -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    jQuery(function() {
+      jQuery('.js-description_readmore_wallpaper').moreLines({
+        linecount: 34, 
+        baseclass: 'b-description',
+        basejsclass: 'js-description',
+        classspecific: '_readmore',    
+        buttontxtmore: "More Category",               
+        buttontxtless: "Less",
+        animationspeed: 250 
+      });
+    });/* ]]> */
+  </script>
+  
+  <!-- More Popular -->
+  <script type="text/javascript">
+    /* <![CDATA[ */
+    jQuery(function() {
+      jQuery('.js-description_readmore_popular').moreLines({
+        linecount: 8, 
+        baseclass: 'b-description',
+        basejsclass: 'js-description',
+        classspecific: '_readmore',    
+        buttontxtmore: "More Popular",               
+        buttontxtless: "Less",
+        animationspeed: 250 
+      });
+    });/* ]]> */
+  </script>
+  
+  <!--  -->
+  
+    <!-- <script>
+      jQuery(function() {
+        jQuery(".parallux").parallux(
+          {
+            fullHeight: false,
+            onMobile: 'fixed'
+          }
+        );
+      });
+    </script> -->
+    <script type="text/javascript">
+      /* <![CDATA[ */
+        jQuery(function() {
+              jQuery(".parallux").parallux(
+                {
+                  fullHeight: false,
+                  onMobile: 'fixed'
+                }
+              );
+            });
+      /* ]]> */
+    </script>
